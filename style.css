@@ -42,7 +42,7 @@ main{
 .title{
 
     width: 100%;
-    color: white;
+    color: hsl(0, 0%, 100%);
     font-size: 1.3em;
     letter-spacing: 8px;
     font-weight: bold;
@@ -62,8 +62,55 @@ main{
     
 }
 
-.countdown .time{
+.countdown div{
+
+    width: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.countdown div .time{
 
     padding: 0px 30px;
+
+}
+
+.countdown div .time-design{
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: center;
+    height: 125px;
+    width: 70%;
+    background-color: hsl(234, 17%, 12%);
+    border-radius: 10px;
+
+}
+
+.countdown div .time-design p{
+
+    position: absolute;
+
+}
+
+.countdown div .time-design .high{
+
+    height: 47%;
+    width: 100%;
+    background-color: hsla(236, 21%, 26%, 0.527);
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+.countdown div .time-design .bottom{
+
+    height: 47%;
+    width: 100%;
+    background-color: hsl(236, 21%, 26%);
+    border-radius: 10px;
 
 }
