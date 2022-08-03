@@ -5,4 +5,4 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - See a live countdown timer that ticks down every second (start the count at 14 days)
 
-![screenshot](https://user-images.githubusercontent.com/105220100/182714364-0bb71323-675b-4572-8af9-cfa7993c0f1b.jpg)
+![Captura de Tela (16)](https://user-images.githubusercontent.com/105220100/182714517-8cbe309e-2dc9-4a5a-9a7d-a4b14159b3fa.png)
