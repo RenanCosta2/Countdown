@@ -139,6 +139,7 @@ main{
 .socials svg:hover path{
 
     fill: hsl(345, 95%, 68%);
+    transition: 0.3s;
 
 }
 
