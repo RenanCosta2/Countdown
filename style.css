@@ -41,19 +41,20 @@ main{
 
 .title{
 
-    width: 100%;
+    width: 100vw;
     color: hsl(0, 0%, 100%);
     margin-top: 50px;
     font-size: 1.3em;
     letter-spacing: 8px;
     font-weight: bold;
     text-align: center;
+    justify-content: center;
 
 }
 
 .countdown{
 
-    width: 50%;
+    width: 600px;
     display: flex;
     color: hsl(237, 18%, 59%);
     margin-bottom: 100px;
@@ -66,7 +67,7 @@ main{
 
 .countdown div{
 
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -138,5 +139,52 @@ main{
 .socials svg:hover path{
 
     fill: hsl(345, 95%, 68%);
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .title{
+
+        margin-top: 100px;
+
+    }
+
+    .countdown{
+
+        width: 350px;
+
+    }
+
+    .countdown div{
+
+        width: 30vw;
+
+    }
+
+    .countdown div .time-design{
+        
+        height: 60px;
+        width: 70px;
+    
+    }
+
+    .countdown div .time{
+
+        font-size: 0.6em;
+        padding: 10px 5px;
+    
+    }
+
+    .countdown div .time-design p{
+
+        font-size: 36px;
+    
+    }
+
+    .socials a svg{
+
+        margin: 150px 10px 0px 10px;
+    }
 
 }
